@@ -1,0 +1,9 @@
+a:= 2
+print hello
+    if a:is 1
+        hey
+        \
+    world
+    world
+    
+--> "hello hey" if a is 1, else "hello world"
