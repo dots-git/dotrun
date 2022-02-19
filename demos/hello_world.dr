@@ -3,7 +3,39 @@ print hello
     if a:is 1
         hey
         \
+    a:= 1
     world
     world
     
 --> "hello hey" if a is 1, else "hello world"
+
+array:=
+    if arg:len:> 0 length:= arg 0
+    content_type:= arg 1
+    
+    space:size:= length
+    space:fill content_type:default
+
+
+
+recursive:= recursive_fn
+    .b:= arg 1
+    if .b:> 0
+        run .b:- 1
+
+recursive:run 4
+
+recursive_fn:=
+    function:= arg 1
+    run:= 
+        instance:= space:copy
+        instance
+    
+    =
+
+    \
+
+integer:= i8 1 
+n:= integer
+
+integer -> id 0 -> 1285079
